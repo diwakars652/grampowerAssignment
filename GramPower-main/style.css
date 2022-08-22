@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+*{
+    font-family: 'Kalam', cursive;
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+  
+  html{
+    overflow-x: hidden;
+    font-size: 62.5%;
+  }
+.ci
+{
+    background-color: rgb(3, 3, 26);
+    height: 20rem;
+    display: grid;
+    justify-items: center;
+    
+}
+.heading{
+    color:#333;
+    font-size: 3.5rem;
+    justify-content: center;
+    padding: 1rem;
+    padding-top: 6rem;
+    text-align: center;
+    /* letter-spacing: .2rem; */
+  }
+  
+  .heading span{
+    color:crimson;
+  }
+ .contact-form-container
+ {
+  margin-left: 75rem;
+  margin-right: 10rem;
+  font-size: medium;
+  border: .2rem solid crimson;
+
+ }
+
+ .aboutus
+{
+  display: flex;
+  justify-content: center;
+  font-size: x-large;
+}
+
+
+
+
+
+  
+.feature{
+    min-height:100vh;
+    background:#f8f8f6;
+  }
+  
+  .feature .card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .feature .card-container .card{
+    width:30rem;
+    margin:2rem;
+    background: #fff;
+    border-radius: .5rem;
+    box-shadow: 0 .3rem .5rem rgba(0,0,0,.3);
+    overflow: hidden;
+    position: relative;
+  }
+  .feature .card-container .card:hover
+  {
+    background: none;
+    border:.2rem solid rgb(184, 45, 73);
+    color:crimson;
+    transition: ease 5sec;
+
+  }
+  
+  .feature .card-container .card img{
+    height:25rem;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .feature .card-container .content{
+    padding-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .feature .card-container .content .title{
+      color:crimson;
+    font-size: 3rem;
+  }
+  
+  .feature .card-container .content p{
+    color:#333;
+    font-size: 1.3rem;
+    padding:1rem;
+  }
+  
+  .feature .card-container .content .stars i{
+    padding:0 .2rem;
+    font-size: 2rem;
+    color:gold;
+  }
+  
+  .feature .card-container .content .btn{
+    font-size: 1.7rem;
+    margin-top: 1.4rem;
+    height:3.5rem;
+    width:12rem;
+    border-radius: .5rem;
+    outline: none;
+    border:none;
+    background: crimson;
+    color:#fff;
+    cursor: pointer;
+    transition: .2s linear;
+  }
+  
+  .feature .card-container .content .btn:hover{
+    background: none;
+    border:.2rem solid crimson;
+    color:crimson;
+  }
+  
+  .feature .card-container .card .discount{
+    position: absolute;
+    top:1rem; left: 1rem;
+    display: block;
+    height:3.5rem;
+    width:6rem;
+    background: #ff3300;
+    color:#fff;
+    line-height: 4rem;
+    text-align: center;
+    font-size: 2rem;
+  }
+  
+  .gallery{
+    min-height: 100vh;
+  }
+  
+  .gallery .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    margin:0 auto;
+  }
+  
+  .gallery .box-container .box{
+    height:20rem;
+    width:30rem;
+    margin:2rem;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .gallery .box-container .box img{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+  }
+  
+  .gallery .box-container .box .icons{
+    position: absolute;
+    top:120%; left: 0;
+    background:linear-gradient(transparent, #333);
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    height:100%;
+    width: 100%;
+    opacity: 0;
+    transition: .2s linear;
+  }
+  
+  .gallery .box-container .box:hover .icons{
+    opacity: 1;
+    top:0;
+  }
+  
+  .gallery .box-container .box .icons a{
+    color:#fff;
+    text-shadow: 0 .1rem .3rem #000;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+  }
+  
+  .gallery .box-container .box .icons a:hover{
+      color:crimson;
+  }
+
+.hot{
+  border: 8rem solid chartreuse;
+  display: flex;
+  text-align: center;
+}
+.storehours
+{   
+  display: grid;
+  justify-content:center;
+  margin-right: 17rem;
+  margin-left: 11rem;
+  font-size: x-large;
+  border:  0.7rem solid rgb(194, 129, 129);
+  background-color: rgb(247, 242, 242);
+  color: #252517;
+  
+
+}
+
+
+.sh1{
+  color:rgba(27, 27, 17, 0.767);
+  font-size: 3.5rem;
+ 
+}
+
+.sh1 span{
+  color:crimson;
+}
+.footer{
+  flex-flow: column;
+  color: #f8f8f6;
+  background-color: #333;
+  font-size: x-large;
+}
+
+.footer .credit{
+ 
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+/* .location
+{
+  margin-top: 50rem;
+} */
